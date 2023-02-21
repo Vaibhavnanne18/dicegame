@@ -4,7 +4,6 @@
 
 <div class="container-fluid text-center Data">
     <div class="row value">
-
         <div class="col">
             Red <span class="badge bg-warning">23</span>
         </div>
@@ -36,10 +35,10 @@
     </div>
 </div>
 
-<div class="row  ">
-    <!-- <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown button
+<div class="d-flex dropbox ">
+    <div class="dropdown">
+        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Show Entry
         </button>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">1</a></li>
@@ -49,25 +48,20 @@
             <li><a class="dropdown-item" href="#">5</a></li>
             <li><a class="dropdown-item" href="#">6</a></li>
         </ul>
-    </div> -->
+    </div>
+    <div class="dropdown">
+        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Show Color
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">red</a></li>
+            <li><a class="dropdown-item" href="#">black</a></li>
+        </ul>
+    </div>
 
-    <div class="dataTables_length" id="tabler_length"><label>Show <select
-        name="tabler_length" aria-controls="tabler" class="form-control
-        input-sm">
-        <option value="10">10</option>
-        <option value="25">25</option>
-        <option value="50">50</option>
-        <option value="100">100</option>
-    </select>
-    entries</label></div>
-    
-    
 </div>
-<!-- 
-echo "# dicegame" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Vaibhavnanne18/dicegame.git
-git push -u origin main -->
+
+<div class="input">
+    <h1 >Estimated Winning Number : </h1>
+    <input class="Inputbox"/>
+</div>

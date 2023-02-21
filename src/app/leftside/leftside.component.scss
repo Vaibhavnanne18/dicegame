@@ -1,11 +1,9 @@
-.headline{
-    margin-left: 14%;
-}
-body{
-    overflow-y: hidden;
-    overflow: hidden;
- }
 
+.headline{
+    text-align: center;
+}
+
+ html, body {margin: 0; height: 100%; overflow: hidden}
 .timer{
     color:blue !important
 }
@@ -58,3 +56,29 @@ h1>.badge {
     background-color: #777;
     border-radius: 10px;
 }
+
+.dropbox {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3vh 10vh;
+    /* margin: -7px; */
+    border: 2px solid black;
+    border-radius: 18px;
+    background-color: rgb(207 240 244);
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+    border: 2px solid black;
+    border-radius: 18px;
+    margin-top: 2vh;
+    background-color: rgb(207 240 244);
+}
+
+.Inputbox{
+     
+     
+    border-radius: 18px;
+ }
